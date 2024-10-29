@@ -8,8 +8,6 @@ This is a simple Two-Factor Authentication (2FA) application built using Node.js
 - [Technologies](#technologies)
 - [Installation](#installation)
 - [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [License](#license)
 
 ## Features
 
