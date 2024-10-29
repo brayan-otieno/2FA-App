@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Display</title>
+</head>
+<body>
+    <h1>Your QR Code</h1>
+    <img id="qrCodeImage" alt="QR Code" />
+    <script>
+        // Replace this with your actual QR code URL from the curl response
+        const qrCodeUrl = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAJklEQVR42mJgAAAC/AB9yw8W3AAAAAElFTkSuQmCC'
+; // make sure this is the full URL
+        document.getElementById('qrCodeImage').src = qrCodeUrl;
+    </script>
+</body>
+</html>
