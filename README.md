@@ -36,8 +36,12 @@ This is a simple Two-Factor Authentication (2FA) application built using Node.js
    cd 2fa-application
    node server.js
 
-2. **Open another terminal**:
+2. **Open another terminal to check if an output is printed**:
    ```bash
-   curl 127.0.0.1:3001/register
+   curl 127.0.0.1:3001
 
-3. **Register and scan the QR code and Boom!! scan the QR code**
+3. **Open your browser and type**:
+   ```bash
+   127.0.0.1:3001/register
+
+4. **Register and scan the QR code and Boom!! scan the QR code**
